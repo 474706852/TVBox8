@@ -6,7 +6,7 @@
 "spider":"https://github.com/qsguan/TVBox/raw/master/XBiubiuLA4.jar",
 
 ## live streaming
-"lives":[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9naXRodWIuY29tL3FzZ3Vhbi9UVkJveC9yYXcvbWFzdGVyL1RWTGl2ZS92aXAudHh0"]}]}],
+"lives":[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9naXRodWIuY29tL3FzZ3Vhbi9UVkJveC9yYXcvbWFzdGVyL1RWTGl2ZS9saXZlLnR4dA=="]}]}],
 
 "sites":[
     {"key":"csp_biubiu_欧乐影院","name":"欧乐影院(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://github.com/qsguan/TVBox/raw/master/MaooXB/OleVod.json"},
