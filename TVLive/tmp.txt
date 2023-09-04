@@ -1,4 +1,4 @@
-﻿🇨🇳｜央视频道,#genre#
+🇨🇳｜央视频道,#genre#
 CCTV1,http://live.aikan.miguvideo.com/wd_r2/cctv/cctv1hd/2500/index.m3u8?msisdn=guest&Channel_ID=0119_04102000-99000_400300000040002&client_ip=110.184.31.110&timestamp=20220913144756&encrypt=5c7df915991c8d67a75815f766acce64&ContentId=265183188&timezone=UTC$超清1080P
 CCTV1,http://39.134.32.102:6610/270000001111/1110000301/index.m3u8?IASHttpSessionId=OTT$超清1080P
 CCTV1,http://yingliu.8866.org:8181/tsfile/live/0001_1.m3u8$超清1080P
