@@ -15,7 +15,6 @@
     {"key":"csp_biubiu_4K电影网","name":"4K电影网(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://github.com/qsguan/TVBox/raw/master/MaooXB/4KDYW.json"},
     {"key":"csp_biubiu_555电影","name":"555电影(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://github.com/qsguan/TVBox/raw/master/MaooXB/555DY.json"},
     {"key":"csp_xpath_meiju56","name":"美剧网(XPF)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://github.com/qsguan/TVBox/raw/master/MaooXP/MeiJuW.json"},
-    {"key": "csp_xBPQ_低端影视","name": "低端影视(XBPQ)","type": 3,"api": "csp_xBPQ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://agit.ai/fenwe/TVBox/raw/branch/master/XYQBiu/DiDuanYS.json"},
     {"key":"csp_xpath_dm84","name":"动漫巴士(XP)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://github.com/qsguan/TVBox/raw/master/MaooXP/DM84.json"},
     {"key": "T4a","name": "T4聚合","type": 4,"api": "https://t4.secan.icu/vod?sites=all&ali_token=4acb3ad2f2254ba1b566279f7cd98ba3&timeout=5","searchable": 1,"quickSearch": 1,"filterable": 1}
 ],
