@@ -12,7 +12,7 @@
     {"key": "T4a","name": "T4聚合","type": 4,"api": "https://t4.secan.icu/vod?sites=all&ali_token=4acb3ad2f2254ba1b566279f7cd98ba3&timeout=5","searchable": 1,"quickSearch": 1,"filterable": 1},
     {"key":"csp_biubiu_欧乐影院","name":"欧乐影院(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://github.com/qsguan/TVBox/raw/master/MaooXB/OleVod.json"},
     {"key":"csp_xpath_欧乐影院","name":"欧乐影院(XPMF)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://github.com/qsguan/TVBox/raw/master/MaooXP/OleVod.json"},
-    {"key":"csp_xpath_唐人街","name":"唐人街(XPMF)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://github.com/qsguan/TVBox/raw/master/MaooXP/TangRenjie.json"},
+    {"key":"csp_xpath_唐人街","name":"唐人街(XPMF)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://github.com/qsguan/TVBox/raw/master/MaooXP/TangRenJie.json"},
     {"key":"csp_xpath_独播库","name":"独播库(XPMF)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://github.com/qsguan/TVBox/raw/master/MaooXP/DuBoKu.json"},
     {"key":"csp_xpath_乐猪TV","name":"乐猪TV(XPM)","type":3,"api":"csp_XPathMac","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://github.com/qsguan/TVBox/raw/master/MaooXP/LeZhuTV.json"},
     {"key":"csp_xpath_在线电影","name":"在线电影(XP)","type":3,"api":"csp_XPath","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://github.com/qsguan/TVBox/raw/master/MaooXP/ZaiXianDY8.json"},
