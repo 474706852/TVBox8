@@ -1,0 +1,130 @@
+{
+    "author":"takagen99",
+    "ua": "",
+    "homeUrl": "https://www.duboku.tv/",
+    //"dcVipFlag": "true",
+    //"dcPlayUrl": "true",
+    "cateNode": "//ul[contains(@class,'nav-menu')]/li/a[contains(@href, 'vodtype')]",
+    "cateName": "/text()",
+    "cateId": "/@href",
+    "cateIdR": "/vodtype/(\\w+).html",
+    "cateManual": {
+        "综艺": "3",
+        "动漫": "4",
+        "陆剧": "13",
+        "日韩剧": "15",
+        "短剧": "21",
+        "台泰剧": "14",
+        "港剧": "20"
+    },
+    
+// Home Summary ================================================
+    "homeVodNode": "//ul[contains(@class,'myui-vodlist')]/li/div/a",
+    "homeVodName": "/@title",
+    "homeVodId": "/@href",
+    "homeVodIdR": "/voddetail/(\\w+).html",
+    "homeVodImg": "/@data-original",
+    "homeVodImgR": "\\S+(http\\S+)",
+    "homeVodMark": "//span[contains(@class,'pic-text')]/text()",
+    
+// Category Summary ================================================
+    "cateUrl": "https://www.duboku.tv/vodshow/{cateId}--{by}-{catelog}--------{year}.html",
+    "cateVodNode": "//ul[contains(@class,'myui-vodlist')]/li/div/a",
+    "cateVodName": "/@title",
+    "cateVodId": "/@href",
+    "cateVodIdR": "/voddetail/(\\w+).html",
+    "cateVodImg": "/@data-original",
+    "cateVodImgR": "\\S+(http\\S+)",
+    "cateVodMark": "//span[contains(@class,'pic-text')]/text()",
+    
+// Category Details ================================================
+    "dtUrl": "https://my.duboku.vip/voddetail/{vid}.html",
+    "dtNode": "//body",
+    "dtName": "//div[contains(@class,'myui-content__thumb')]/a/@title",
+    "dtNameR": "",
+    "dtImg": "//div[contains(@class,'myui-content__thumb')]/a/img/@data-original",
+    "dtImgR": "",
+    "dtCate": "//div[contains(@class,'myui-content__detail')]/p/span[contains(text(), '分类')]/following-sibling::a/text()",
+    "dtYear": "//div[contains(@class,'myui-content__detail')]/p/span[contains(text(), '年份')]/following-sibling::a/text()",
+    "dtArea": "//div[contains(@class,'myui-content__detail')]/p/span[contains(text(), '地区')]/following-sibling::a/text()",
+    "dtMark": "//div[contains(@class,'myui-content__detail')]/p/span[contains(text(), '更新')]/following-sibling::a/text()",
+    "dtDirector": "//div[contains(@class,'myui-content__detail')]/p/span[contains(text(), '导演')]/following-sibling::a/text()",
+    "dtActor": "//div[contains(@class,'myui-content__detail')]/p/span[contains(text(), '主演')]/following-sibling::a/text()",
+    "dtDesc": "//div[contains(@class,'myui-content__detail')]/p/span[contains(text(), '简介')]/following-sibling::a/text()",
+    
+// Playlist =====================================================
+    "dtFromNode": "//ul[contains(@class,'nav-tabs')]/li/a",
+    "dtFromName": "/text()",
+    "dtFromNameR": "",
+    "dtUrlNode": "//ul[contains(@class,'myui-content__list')]",
+    "dtUrlSubNode": "/li/a",
+    "dtUrlId": "/@href",
+    "dtUrlIdR": "/vodplay/(\\S+).html",
+    "dtUrlName": "/text()",
+    "dtUrlNameR": "",
+    "playUrl": "https://my.duboku.vip/vodplay/{playUrl}.html",
+    "playUa": "",
+    
+// Search Results ================================================
+    "searchUrl": "https://my.duboku.vip/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
+    "scVodNode": "json:list",
+    "scVodName": "name",
+    "scVodId": "id",
+    "scVodIdR": "",
+    "scVodImg": "pic",
+    "scVodMark": "",
+    
+// Filters =======================================================
+    "filter": {
+        "13": [
+            {
+                "key": "catelog",
+                "name": "类型",
+                "value": [
+                    {"n": "全部","v": ""},
+                    {"n": "悬疑","v": "悬疑"},
+                    {"n": "武侠","v": "武侠"},
+                    {"n": "科幻","v": "科幻"},
+                    {"n": "都市","v": "都市"},
+                    {"n": "爱情","v": "爱情"},
+                    {"n": "古装","v": "古装"},
+                    {"n": "战争","v": "战争"},
+                    {"n": "青春","v": "青春"},
+                    {"n": "偶像","v": "偶像"},
+                    {"n": "喜剧","v": "喜剧"},
+                    {"n": "家庭","v": "家庭"},
+                    {"n": "犯罪","v": "犯罪"},
+                    {"n": "奇幻","v": "奇幻"},
+                    {"n": "剧情","v": "剧情"},
+                    {"n": "乡村","v": "乡村"},
+                    {"n": "年代","v": "年代"},
+                    {"n": "警匪","v": "警匪"},
+                    {"n": "谍战","v": "谍战"},
+                    {"n": "冒险","v": "冒险"},
+                    {"n": "罪案","v": "罪案"},
+                    {"n": "宫廷","v": "宫廷"}]
+            },
+            {
+                "key": "year",
+                "name": "年份",
+                "value": [
+                    {"n": "全部","v": ""},
+                    {"n": "2023","v": "2023"},
+                    {"n": "2022","v": "2022"},
+                    {"n": "2021","v": "2021"},
+                    {"n": "2020","v": "2020"},
+                    {"n": "2019","v": "2019"},
+                    {"n": "2018","v": "2018"},
+                    {"n": "2017","v": "2017"}]
+            },
+            {
+                "key": "by",
+                "name": "排序",
+                "value": [
+                    {"n": "时间","v": "time"},
+                    {"n": "人气","v": "hits"},
+                    {"n": "评分","v": "score"}]
+            }
+        ]
+    }
+  }
