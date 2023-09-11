@@ -48,7 +48,7 @@
     "dtMark": "//div[contains(@class,'myui-content__detail')]/p/span[contains(text(), '更新')]/following-sibling::span/text()",
     "dtDirector": "//div[contains(@class,'myui-content__detail')]/p/span[contains(text(), '导演')]/following-sibling::a/text()",
     "dtActor": "//div[contains(@class,'myui-content__detail')]/p/span[contains(text(), '主演')]/following-sibling::a/text()",
-    "dtDesc": "//div[contains(@class,'text-collapse')]/p/span[contains(@class,'data')]/p/text()",
+    "dtDesc": "//div[contains(@class,'text-collapse')]/span[contains(@class,'data')]/p/text()",
     
 // Playlist =====================================================
     "dtFromNode": "//ul[contains(@class,'nav-tabs')]/li/a",
