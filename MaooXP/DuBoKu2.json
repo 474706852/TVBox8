@@ -2,6 +2,8 @@
     "author":"takagen99",
     "ua": "",
     "homeUrl": "https://www.duboku.tv/",
+    "dcVipFlag": "true",
+    "dcPlayUrl": "true",
     "cateNode": "//ul[contains(@class,'nav-menu')]/li/a[contains(@href, 'vodtype')]",
     "cateName": "/text()",
     "cateId": "/@href",
