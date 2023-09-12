@@ -48,7 +48,7 @@
   //"dtDirector": "//li[@class='data']/span[contains(text(),'导演')]/following-sibling::*/text()",
   //"dtActor":    "//li[@class='data']/span[contains(text(),'主演')]/following-sibling::*/text()",
 
-    "dtActor":    "string-join((//li[@class='data']/span[contains(text(),'主演')]/following-sibling::*/text(),' a'), ' ')",
+    "dtActor":    "string-join((/li[@class='data']/span[contains(text(),'主演')]/following-sibling::a/text(),' aa'), ' ')",
     "dtDirector": "concat(//li[@class='data']/span[contains(text(),'导演')]/following-sibling::a[position()<6]/text())",
     //"dtActor":    "concat(//li[@class='data']/span[contains(text(),'主演')]/following-sibling::a[position()<6]/text())",
     "dtDesc":     "//div[@class='content']//p/text()",
