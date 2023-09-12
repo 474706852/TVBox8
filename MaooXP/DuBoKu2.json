@@ -66,13 +66,13 @@
     "playUa": "",
     
 // Search Results ================================================
-    "searchUrl": "https://my.duboku.vip/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
-    "scVodNode": "json:list",
-    "scVodName": "name",
-    "scVodId": "id",
-    "scVodIdR": "",
-    "scVodImg": "pic",
-    "scVodMark": "",
+    "searchUrl": "https://www.duboku.tv/vodsearch/-------------.html?wd={wd}",
+    "scVodNode": "//ul[contains(@class,'myui-vodlist__media')]/li/div/a[contains(@class,'myui-vodlist__thumb')]",
+    "scVodName": "/@title",
+    "scVodId": "/@href",
+    "scVodIdR": "/voddetail/(\\w+).html",
+    "scVodImg": "/@data-original",
+    "scVodMark": "\\S+(http\\S+)",
     
 // Filters =======================================================
     "filter": {
