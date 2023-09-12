@@ -41,15 +41,16 @@
     "dtNameR": "",
     "dtImg":   "//div[contains(@class,'content_thumb')]/a/@data-original",
     "dtImgR":  "\\S+(http\\S+)",
-    "dtCate":     "//li[@class='data']/span[contains(text(),'类型')]//text()",
+  //"dtCate":     "//li[@class='data']/span[contains(text(),'类型')]//text()",
+    "dtCate":     "//li[@class='data']/span[contains(text(),'类型')]/parent::*/descendant::*[not(name()='span' or name()='a')]",
+
     "dtYear":     "//li[@class='data']/span[contains(text(),'年份')]/following-sibling::*/text()",
     "dtArea":     "//li[@class='data']/span[contains(text(),'地区')]/following-sibling::*/text()",
     "dtMark":     "//li[@class='data']/span[contains(text(),'更新')]/following-sibling::*/text()",
     "dtDirector": "concat(//li[@class='data']/span[contains(text(),'导演')]/following-sibling::a[position()<6]/text())",
     "dtActor":    "concat(//li[@class='data']/span[contains(text(),'主演')]/following-sibling::a[position()<6]/text())",
-    "dtDesc":     "//div[@class='content']/section/h2[contains(text(),'剧情介绍')]/following-sibling::*/text()",
-    //"dtDesc":     "//div[@class='content']/section", #若/font/p中没有/p节点，则用/font/text()替换/font/p/text()
-    //"dtDescR":    "concat('aaa_', concat(/font/p/text(), substring(/font/text(), 1 div not(/font/p))))",
+    "dtDesc":     "//div[@class='content']/section",  #由于/font/p中可能没有/p节点，索性使用/section下所有文本内容
+  //"dtDesc":     "//div[@class='content']/section/h2[contains(text(),'剧情介绍')]/following-sibling::*/text()",
     
 // Playlist =====================================================
     "dtFromNode":   "//div[contains(@class,'play_source_tab')]/a/b",
