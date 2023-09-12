@@ -26,7 +26,7 @@
     
 // Category Summary ================================================
     "cateUrl": "https://www.tangrenjie.tv/vod/show/area/{area}/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html",
-    "cateVodNode": "//ul[contains(@class,'vodlist')]/li/a",
+    "cateVodNode": "//ul[contains(@class,'vodlist')][1]/li/a",
     "cateVodName": "/@title",
     "cateVodId":   "/@href",
     "cateVodIdR":  "/vod/detail/id/(\\w+).html",
