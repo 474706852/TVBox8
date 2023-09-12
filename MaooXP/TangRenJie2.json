@@ -49,7 +49,7 @@
   //"dtActor":    "//li[@class='data']/span[contains(text(),'主演')]/following-sibling::*/text()",
 
     "dtDirector": "concat(//li[@class='data']/span[contains(text(),'导演')]/following-sibling::a[position()<6]/text())",
-    "dtActor":    "concat(//li[@class='data']/span[contains(text(),'主演')]/following-sibling::a[position()<6]/text(),'_')",
+    "dtActor":    "concat(//li[@class='data']/span[contains(text(),'主演')]/following-sibling::a[position()<6]/text())",
     "dtDesc":     "//div[@class='content']//p/text()",
     
 // Playlist =====================================================
