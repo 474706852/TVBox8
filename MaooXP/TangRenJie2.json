@@ -20,7 +20,7 @@
     "homeVodName": "/@title",
     "homeVodId":   "/@href",
     "homeVodIdR":  "/vod/detail/id/(\\w+).html",
-    "homeVodImg":  "concat('https:\/\/www.tangrenjie.tv\/',/@data-original)",
+    "homeVodImg":  "/@data-original",
     "homeVodImgR": "",
     "homeVodMark": "//span[contains(@class,'pic-text')]/b/text()",
     
@@ -30,7 +30,7 @@
     "cateVodName": "/@title",
     "cateVodId":   "/@href",
     "cateVodIdR":  "/vod/detail/id/(\\w+).html",
-    "cateVodImg":  "concat('https:\/\/www.tangrenjie.tv\/',/@data-original)",
+    "cateVodImg":  "/@data-original",
     "cateVodImgR": "",
     "cateVodMark": "//span[contains(@class,'pic-text')]/b/text()",
     
@@ -41,13 +41,13 @@
     "dtNameR": "",
     "dtImg":   "//div[contains(@class,'content_thumb')]/a/@data-original",
     "dtImgR":  "\\S+(http\\S+)",
-    "dtCate":     "//div[contains(@class,'content_detail')]/p/span[contains(text(),'类型')]/following-sibling::*/text()",
-    "dtYear":     "//div[contains(@class,'content_detail')]/p/span[contains(text(),'年份')]/following-sibling::*/text()",
-    "dtArea":     "//div[contains(@class,'content_detail')]/p/span[contains(text(),'地区')]/following-sibling::*/text()",
-    "dtMark":     "//div[contains(@class,'content_detail')]/p/span[contains(text(),'更新')]/following-sibling::*/text()",
-    "dtDirector": "//div[contains(@class,'content_detail')]/p/span[contains(text(),'导演')]/following-sibling::*/text()",
-    "dtActor":    "//div[contains(@class,'content_detail')]/p/span[contains(text(),'主演')]/following-sibling::*/text()",
-    "dtDesc":     "//div[@class='content']//font/text()",
+    "dtCate":     "//li[@class='data']/span[contains(text(),'类型')]/following-sibling::*/text()",
+    "dtYear":     "//li[@class='data']/span[contains(text(),'年份')]/following-sibling::*/text()",
+    "dtArea":     "//li[@class='data']/span[contains(text(),'地区')]/following-sibling::*/text()",
+    "dtMark":     "//li[@class='data']/span[contains(text(),'更新')]/following-sibling::*/text()",
+    "dtDirector": "//li[@class='data']/span[contains(text(),'导演')]/following-sibling::*/text()",
+    "dtActor":    "//li[@class='data']/span[contains(text(),'主演')]/following-sibling::*/text()",
+    "dtDesc":     "//div[@class='content']//p/text()",
     
 // Playlist =====================================================
     "dtFromNode":   "//div[contains(@class,'play_source_tab')]/a/b",
