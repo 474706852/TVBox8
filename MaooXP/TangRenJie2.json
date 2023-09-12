@@ -9,10 +9,16 @@
     "cateId":   "/@href",
     "cateIdR":  "/vod/type/id/(\\w+).html",
     "cateManual": {
-        "电影":   "1",
         "电视剧": "2",
         "综艺":   "3",
-        "动漫":   "4"
+        "动漫":   "4",
+        "动作片": "6",
+        "喜剧片": "7",
+        "爱情片": "8",
+        "科幻片": "9",
+        "恐怖片": "10",
+        "剧情片": "11",
+        "战争片": "12"
     },
     
 // Home Summary ================================================
@@ -47,8 +53,7 @@
     "dtMark":     "//li[@class='data']/span[contains(text(),'更新')]/following-sibling::*/text()",
     "dtDirector": "concat(//li[@class='data']/span[contains(text(),'导演')]/following-sibling::a[position()<6]/text())",
     "dtActor":    "concat(//li[@class='data']/span[contains(text(),'主演')]/following-sibling::a[position()<6]/text())",
-    "dtDesc":     "//div[@class='content']/section",  #由于/font/p中可能没有/p节点，索性使用/section下所有文本内容
-  //"dtDesc":     "//div[@class='content']/section/h2[contains(text(),'剧情介绍')]/following-sibling::*/text()",
+    "dtDesc":     "//div[@class='content']/section", #由于/font/p中可能没有/p节点，索性使用/section下所有文本内容
     
 // Playlist =====================================================
     "dtFromNode":   "//div[contains(@class,'play_source_tab')]/a/b",
@@ -64,43 +69,27 @@
     "playUa": "",
     
 // Search Results ================================================
-    "searchUrl": "https://www.duboku.tv/vodsearch/-------------.html?wd={wd}",
-    "scVodNode": "//ul[contains(@class,'myui-vodlist__media')]/li/div/a[contains(@class,'myui-vodlist__thumb')]",
+    "searchUrl": "https://www.tangrenjie.tv/vod/search.html?wd={wd}",
+    "scVodNode": "//ul[contains(@class,'vodlist')]/li/div/a[contains(@class,'vodlist_thumb')]",
     "scVodName": "/@title",
     "scVodId": "/@href",
-    "scVodIdR": "/voddetail/(\\w+).html",
+    "scVodIdR": "/vod/detail/id/(\\w+).html",
     "scVodImg": "/@data-original",
     "scVodMark": "\\S+(http\\S+)",
     
 // Filters =======================================================
     "filter": {
-        "1": [
+        "2": [
             {
                 "key": "catelog",
                 "name": "类型",
                 "value": [
                     {"n": "全部","v": ""},
-                    {"n": "悬疑","v": "悬疑"},
-                    {"n": "武侠","v": "武侠"},
-                    {"n": "科幻","v": "科幻"},
-                    {"n": "都市","v": "都市"},
-                    {"n": "爱情","v": "爱情"},
-                    {"n": "古装","v": "古装"},
-                    {"n": "战争","v": "战争"},
-                    {"n": "青春","v": "青春"},
-                    {"n": "偶像","v": "偶像"},
-                    {"n": "喜剧","v": "喜剧"},
-                    {"n": "家庭","v": "家庭"},
-                    {"n": "犯罪","v": "犯罪"},
-                    {"n": "奇幻","v": "奇幻"},
-                    {"n": "剧情","v": "剧情"},
-                    {"n": "乡村","v": "乡村"},
-                    {"n": "年代","v": "年代"},
-                    {"n": "警匪","v": "警匪"},
-                    {"n": "谍战","v": "谍战"},
-                    {"n": "冒险","v": "冒险"},
-                    {"n": "罪案","v": "罪案"},
-                    {"n": "宫廷","v": "宫廷"}]
+                    {"n": "国产剧","v": "国产剧"},
+                    {"n": "港台剧","v": "港台剧"},
+                    {"n": "日韩剧","v": "日韩剧"},
+                    {"n": "欧美剧","v": "欧美剧"},
+                    {"n": "海外剧","v": "海外剧"}]
             },
             {
                 "key": "year",
@@ -113,14 +102,26 @@
                     {"n": "2020","v": "2020"},
                     {"n": "2019","v": "2019"},
                     {"n": "2018","v": "2018"},
-                    {"n": "2017","v": "2017"}]
+                    {"n": "2017","v": "2017"},
+                    {"n": "2016","v": "2016"},
+                    {"n": "2015","v": "2015"},
+                    {"n": "2014","v": "2014"},
+                    {"n": "2013","v": "2013"},
+                    {"n": "2012","v": "2012"},
+                    {"n": "2011","v": "2011"},
+                    {"n": "2000-2010","v": "2000-2010"},
+                    {"n": "1990-1999","v": "1990-1999"},
+                    {"n": "1900-1989","v": "1900-1989"}]
             },
             {
                 "key": "by",
                 "name": "排序",
                 "value": [
-                    {"n": "时间","v": "time"},
-                    {"n": "人气","v": "hits"},
+                    {"n": "最新","v": "time"},
+                    {"n": "日榜","v": "hits_day"},
+                    {"n": "周榜","v": "hits_week"},
+                    {"n": "月榜","v": "hits_month"},
+                    {"n": "总榜","v": "hits"},
                     {"n": "评分","v": "score"}]
             }
         ]
