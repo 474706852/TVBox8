@@ -51,7 +51,7 @@
     "dtDirector": "//div[contains(@class,'myui-content__detail')]/p/span[contains(text(), '导演')]/following-sibling::*/text()",
     //"dtActor":    "//div[contains(@class,'myui-content__detail')]/p/span[contains(text(), '主演')]/following-sibling::*/text()",
 
-    "dtActor":    "//div[contains(@class,'myui-content__detail')]/p/span[contains(text(), '主演')]/parent::*/text()",
+    "dtActor":    "//div[contains(@class,'myui-content__detail')]/p/span[contains(text(), '主演')]/parent/child/text()",
 
 
 
