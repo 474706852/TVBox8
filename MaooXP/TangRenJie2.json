@@ -49,7 +49,7 @@
     "dtActor":    "concat(//li[@class='data']/span[contains(text(),'主演')]/following-sibling::a[position()<6]/text())",
   //"dtDesc":     "//div[@class='content']/section/h2[contains(text(),'剧情介绍')]/following-sibling::*/text()",
     "dtDesc":     "//div[@class='content']/section", #若/font/p中没有/p节点，则用/font/text()替换/font/p/text()
-    "dtDescR":    "concat(': ', concat(/font/p/text(), substring(/font/text(), 1 div not(/font/p))))",
+    "dtDescR":    "concat('aaa_', concat(/font/p/text(), substring(/font/text(), 1 div not(/font/p))))",
     
 // Playlist =====================================================
     "dtFromNode":   "//div[contains(@class,'play_source_tab')]/a/b",
