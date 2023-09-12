@@ -49,7 +49,7 @@
   //"dtActor":    "//li[@class='data']/span[contains(text(),'主演')]/following-sibling::*/text()",
   //"dtActor":    "string-join((string(//li[@class='data']/span[contains(text(),'主演')]/following-sibling::*/text())),' ')",
   //"dtActor":    "concat(//li[@class='data']/span[contains(text(),'主演')]/following-sibling::*/text())",
-    "dtActor":    "//li[@class='data']/span[contains(text(),'主演')]/..//a/text()",
+    "dtActor":    "string(//li[@class='data']/span[contains(text(),'主演')]/..//text())",
     "dtDesc":     "//div[@class='content']//p/text()",
     
 // Playlist =====================================================
