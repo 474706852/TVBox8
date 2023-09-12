@@ -47,8 +47,8 @@
     "dtMark":     "//li[@class='data']/span[contains(text(),'更新')]/following-sibling::*/text()",
     "dtDirector": "concat(//li[@class='data']/span[contains(text(),'导演')]/following-sibling::a[position()<6]/text())",
     "dtActor":    "concat(//li[@class='data']/span[contains(text(),'主演')]/following-sibling::a[position()<6]/text())",
-  //"dtDesc":     "//div[@class='content']/section/h2[contains(text(),'剧情介绍')]/following-sibling::*/text()",
-    "dtDesc":     "//div[@class='content']/section", #若/font/p中没有/p节点，则用/font/text()替换/font/p/text()
+    "dtDesc":     "//div[@class='content']/section/h2[contains(text(),'剧情介绍')]/following-sibling::*/text()",
+    //"dtDesc":     "//div[@class='content']/section", #若/font/p中没有/p节点，则用/font/text()替换/font/p/text()
     //"dtDescR":    "concat('aaa_', concat(/font/p/text(), substring(/font/text(), 1 div not(/font/p))))",
     
 // Playlist =====================================================
