@@ -45,12 +45,9 @@
     "dtYear":     "//li[@class='data']/span[contains(text(),'年份')]/following-sibling::*/text()",
     "dtArea":     "//li[@class='data']/span[contains(text(),'地区')]/following-sibling::*/text()",
     "dtMark":     "//li[@class='data']/span[contains(text(),'更新')]/following-sibling::*/text()",
-  //"dtDirector": "//li[@class='data']/span[contains(text(),'导演')]/following-sibling::*/text()",
-  //"dtActor":    "//li[@class='data']/span[contains(text(),'主演')]/following-sibling::*/text()",
-
     "dtDirector": "concat(//li[@class='data']/span[contains(text(),'导演')]/following-sibling::a[position()<6]/text())",
     "dtActor":    "concat(//li[@class='data']/span[contains(text(),'主演')]/following-sibling::a[position()<6]/text())",
-    "dtDesc":     "//div[@class='content']//p/text()",
+    "dtDesc":     "//div[@class='content']/section/h2[contains(text(),'剧情介绍')]/following-sibling::*/text()",
     
 // Playlist =====================================================
     "dtFromNode":   "//div[contains(@class,'play_source_tab')]/a/b",
