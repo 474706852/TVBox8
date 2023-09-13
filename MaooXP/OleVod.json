@@ -2,8 +2,6 @@
     "author": "Tangsan99999",
     "ua": "",
     "homeUrl": "https://www.tangrenjie.tv",
-    "dcVipFlag": "true",
-    "dcPlayUrl": "true",
     "cateNode": "//ul[contains(@class,'top_nav')]/li/a[contains(@href, 'type') and not(contains(@href,'5'))]",
     "cateName": "/b/text()",
     "cateId":   "/@href",
