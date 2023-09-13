@@ -22,7 +22,7 @@
     "homeVodIdR":  "/v/(\\w+).html",
     "homeVodImg":  "/@data-original",
     "homeVodImgR": "\\S+(http\\S+)",
-    "homeVodMark": "/span[contains(@class,'pic_text')]//text()",
+    "homeVodMark": "/span[contains(@class,'pic-text')]//text()",
     
 // Category Summary ================================================
     "cateUrl": "https://gimy.video/genre/{cateId}-{area}-{year}-{catePg}/by/{by}.html",
@@ -32,7 +32,7 @@
     "cateVodIdR":  "/v/(\\w+).html",
     "cateVodImg":  "/@data-original",
     "cateVodImgR": "\\S+(http\\S+)",
-    "cateVodMark": "/span[contains(@class,'pic_text')]//text()",
+    "cateVodMark": "/span[contains(@class,'pic-text')]//text()",
     
 // Category Details ================================================
     "dtUrl": "https://gimy.video/v/{vid}.html",
@@ -66,7 +66,7 @@
     "scVodId":   "/@href",
     "scVodIdR":  "/v/(\\w+).html",
     "scVodImg":  "/@data-original",
-    "scVodMark": "/span[contains(@class,'pic_text')]//text()",
+    "scVodMark": "/span[contains(@class,'pic-text')]//text()",
     
 // Filters =======================================================
     "filter": {
