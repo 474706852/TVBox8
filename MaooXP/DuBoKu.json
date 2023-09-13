@@ -25,7 +25,7 @@
     "homeVodIdR":  "/voddetail/(\\w+).html",
     "homeVodImg":  "/@data-original",
     "homeVodImgR": "\\S+(http\\S+)",
-    "homeVodMark": "//span[contains(@class,'pic-text')]/text()",
+    "homeVodMark": "/span[contains(@class,'pic-text')]/text()",
     
 // Category Summary ================================================
     "cateUrl": "https://www.duboku.tv/vodshow/{cateId}-{area}-{by}-{catelog}-----{catePg}---{year}.html",
@@ -35,7 +35,7 @@
     "cateVodIdR":  "/voddetail/(\\w+).html",
     "cateVodImg":  "/@data-original",
     "cateVodImgR": "\\S+(http\\S+)",
-    "cateVodMark": "//span[contains(@class,'pic-text')]/text()",
+    "cateVodMark": "/span[contains(@class,'pic-text')]/text()",
     
 // Category Details ================================================
     "dtUrl": "https://w.duboku.io/voddetail/{vid}.html",
@@ -69,7 +69,7 @@
     "scVodIdR":  "/voddetail/(\\w+).html",
     "scVodImg":  "/@data-original",
     "scVodImgR": "\\S+(http\\S+)",
-    "scVodMark": "//span[contains(@class,'pic-text')]/text()",
+    "scVodMark": "/span[contains(@class,'pic-text')]/text()",
     
 // Filters =======================================================
     "filter": {
