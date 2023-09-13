@@ -13,7 +13,6 @@
     {"key":"csp_xpath_独播库","name":"独播库(XPMF)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://github.com/qsguan/TVBox/raw/master/MaooXP/DuBoKu.json"},
     {"key":"csp_xpath_唐人街影院","name":"唐人街(XPMF)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://github.com/qsguan/TVBox/raw/master/MaooXP/TangRenJie.json"},
     {"key":"csp_biubiu_欧乐影院","name":"欧乐影院(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://github.com/qsguan/TVBox/raw/master/MaooXB/OleVod.json"},
-    {"key":"csp_xpath_独播库","name":"独播库(XPMF)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://github.com/qsguan/TVBox/raw/master/MaooXP/DuBoKu.json"},
     {"key":"csp_xpath_乐猪TV","name":"乐猪TV(XPM)","type":3,"api":"csp_XPathMac","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://github.com/qsguan/TVBox/raw/master/MaooXP/LeZhuTV.json"},
     {"key":"csp_biubiu_4K电影网","name":"4K电影网(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://github.com/qsguan/TVBox/raw/master/MaooXB/4KDYW.json"},
     {"key":"csp_xpath_美剧网","name":"美剧网(XPF)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://github.com/qsguan/TVBox/raw/master/MaooXP/MeiJuW.json"},
