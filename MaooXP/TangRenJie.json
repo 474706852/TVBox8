@@ -26,7 +26,6 @@
     "homeVodId":   "/@href",
     "homeVodIdR":  "/vod/detail/id/(\\w+).html",
     "homeVodImg":  "/@data-original",
-    "homeVodImgR": "",
     "homeVodMark": "//span[contains(@class,'pic-text')]/b/text()",
     
 // Category Summary ================================================
@@ -36,17 +35,14 @@
     "cateVodId":   "/@href",
     "cateVodIdR":  "/vod/detail/id/(\\w+).html",
     "cateVodImg":  "/@data-original",
-    "cateVodImgR": "",
     "cateVodMark": "//span[contains(@class,'pic-text')]/b/text()",
     
 // Category Details ================================================
     "dtUrl": "https://www.tangrenjie.tv/vod/detail/id/{vid}.html",
-    "dtNode":  "//body",
-    "dtName":  "//div[contains(@class,'content_thumb')]/a/@title",
-    "dtNameR": "",
-    "dtImg":   "//div[contains(@class,'content_thumb')]/a/@data-original",
-    "dtImgR":  "",
-    "dtCate":     "//li[@class='data']/span[contains(text(),'类型')]",
+    "dtNode":     "//body",
+    "dtName":     "//div[contains(@class,'content_thumb')]/a/@title",
+    "dtImg":      "//div[contains(@class,'content_thumb')]/a/@data-original",
+    "dtCate":     "//li[@class='data']/span[contains(text(),'类型')]/following-sibling::*/text()",
     "dtYear":     "//li[@class='data']/span[contains(text(),'年份')]/following-sibling::*/text()",
     "dtArea":     "//li[@class='data']/span[contains(text(),'地区')]/following-sibling::*/text()",
     "dtMark":     "//li[@class='data']/span[contains(text(),'更新')]/following-sibling::*/text()",
@@ -57,24 +53,22 @@
 // Playlist =====================================================
     "dtFromNode":   "//div[contains(@class,'play_source_tab')]/a/b",
     "dtFromName":   "/text()",
-    "dtFromNameR":  "",
     "dtUrlNode":    "//div[@class='playlist_full']",
     "dtUrlSubNode": "/ul/li/a",
     "dtUrlId":      "/@href",
     "dtUrlIdR":     "/vod/play/id/(\\S+).html",
     "dtUrlName":    "/text()",
-    "dtUrlNameR":   "",
     "playUrl": "https://www.tangrenjie.tv/vod/play/id/{playUrl}.html",
-    "playUa": "",
+    "playUa":  "",
     
 // Search Results ================================================
     "searchUrl": "https://www.tangrenjie.tv/vod/search.html?wd={wd}",
-    "scVodNode": "//ul[contains(@class,'vodlist')]/li/div/a[contains(@class,'vodlist_thumb')]",
+    "scVodNode": "//ul[contains(@class,'vodlist')][1]/li/a",
     "scVodName": "/@title",
-    "scVodId": "/@href",
-    "scVodIdR": "/vod/detail/id/(\\w+).html",
-    "scVodImg": "/@data-original",
-    "scVodMark": "\\S+(http\\S+)",
+    "scVodId":   "/@href",
+    "scVodIdR":  "/vod/detail/id/(\\w+).html",
+    "scVodImg":  "/@data-original",
+    "scVodMark": "//span[contains(@class,'pic-text')]/text()",
     
 // Filters =======================================================
     "filter": {
