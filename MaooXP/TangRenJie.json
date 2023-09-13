@@ -4,7 +4,7 @@
     "homeUrl": "https://www.tangrenjie.tv",
     "dcVipFlag": "true",
     "dcPlayUrl": "true",
-    "cateNode": "//ul[contains(@class,'top_nav')]/li/a[contains(@href, 'type') and not(contains(@href,'5'))]",
+    "cateNode": "//ul[contains(@class,'top_nav')]/li/a[contains(@href,'type') and not(contains(@href,'5'))]",
     "cateName": "/b/text()",
     "cateId":   "/@href",
     "cateIdR":  "/vod/type/id/(\\w+).html",
@@ -26,7 +26,7 @@
     "homeVodId":   "/@href",
     "homeVodIdR":  "/vod/detail/id/(\\w+).html",
     "homeVodImg":  "/@data-original",
-    "homeVodMark": "/span[contains(@class,'pic-text')]/b/text()",
+    "homeVodMark": "/span[contains(@class,'pic_text')]/b/text()",
     
 // Category Summary ================================================
     "cateUrl": "https://www.tangrenjie.tv/vod/show/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html",
@@ -35,7 +35,7 @@
     "cateVodId":   "/@href",
     "cateVodIdR":  "/vod/detail/id/(\\w+).html",
     "cateVodImg":  "/@data-original",
-    "cateVodMark": "/span[contains(@class,'pic-text')]/b/text()",
+    "cateVodMark": "/span[contains(@class,'pic_text')]/b/text()",
     
 // Category Details ================================================
     "dtUrl": "https://www.tangrenjie.tv/vod/detail/id/{vid}.html",
@@ -68,7 +68,7 @@
     "scVodId":   "/@href",
     "scVodIdR":  "/vod/detail/id/(\\w+).html",
     "scVodImg":  "/@data-original",
-    "scVodMark": "/span[contains(@class,'pic-text')]/text()",
+    "scVodMark": "/span[contains(@class,'pic_text')]/text()",
     
 // Filters =======================================================
     "filter": {
