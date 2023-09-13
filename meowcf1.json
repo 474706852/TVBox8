@@ -9,7 +9,7 @@
 "lives":[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9naXRodWIuY29tL3FzZ3Vhbi9UVkJveC9yYXcvbWFzdGVyL1RWTGl2ZS9saXZlLnR4dA=="]}]}],
 
 "sites":[
-    {"key":"csp_xpath_剧迷影院","name":"剧迷影院(XPMF)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://github.com/qsguan/TVBox/raw/master/MaooXP/GimyTV.json"},
+    {"key":"csp_xpath_97韩剧网","name":"97韩剧网(XPMF)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://github.com/qsguan/TVBox/raw/master/MaooXP/97HanJW.json"},
     ## 播不出来
     {"key":"csp_biubiu_CokeMV","name":"CokeMV(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://freed.yuanhsing.cf/TVBox/MaooXB2/COKEMV.json"},
     {"key":"csp_xpath_CokeMV","name":"CokeMV(XPF)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://freed.yuanhsing.cf/TVBox/MaooXP/cokemv.json"},
