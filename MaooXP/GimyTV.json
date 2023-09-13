@@ -50,7 +50,7 @@
     
 // Playlist =====================================================
     "dtFromNode":   "//div[contains(@class,'col-md-wide-7')]/div[contains(@class,'myui-panel') and not(@id='desc')]/div/div/div/a",
-    "dtFromName":   "线路",
+    "dtFromName":   "/text()",
     "dtUrlNode":    "//ul[contains(@class,'myui-content__list')]",
     "dtUrlSubNode": "/li/a",
     "dtUrlId":      "/@href",
