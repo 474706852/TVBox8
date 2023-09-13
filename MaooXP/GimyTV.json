@@ -9,6 +9,10 @@
     "cateId":   "/@href",
     "cateIdR":  "/channel/(\\w+).html",
     "cateManual": {
+        "電影":   "movies",
+        "電視劇": "tvseries",
+        "綜藝":   "tv_show",
+        "動漫":   "anime"
     },
     
 // Home Summary ================================================
@@ -18,7 +22,7 @@
     "homeVodIdR":  "/v/(\\w+).html",
     "homeVodImg":  "/@data-original",
     "homeVodImgR": "\\S+(http\\S+)",
-    "homeVodMark": "/span[contains(@class,'pic-text')]//text()",
+    "homeVodMark": "/span[contains(@class,'pic-text')]/text()",
     
 // Category Summary ================================================
     "cateUrl": "https://gimy.video/genre/{cateId}-{area}-{year}-{catePg}/by/{by}.html",
@@ -28,7 +32,7 @@
     "cateVodIdR":  "/v/(\\w+).html",
     "cateVodImg":  "/@data-original",
     "cateVodImgR": "\\S+(http\\S+)",
-    "cateVodMark": "/span[contains(@class,'pic-text')]//text()",
+    "cateVodMark": "/span[contains(@class,'pic-text')]/text()",
     
 // Category Details ================================================
     "dtUrl": "https://gimy.video/v/{vid}.html",
@@ -42,10 +46,10 @@
     "dtMark":     "//p[@class='data']/span[contains(text(),'狀態')]/following-sibling::*/text()",
     "dtDirector": "concat(//p[@class='data']/span[contains(text(),'導演')]/following-sibling::a[position()<6]/text())",
     "dtActor":    "concat(//p[@class='data']/span[contains(text(),'主演')]/following-sibling::a[position()<6]/text())",
-    "dtDesc":     "//div[contains(@class, 'text-collapse')]/p/text()",
+    "dtDesc":     "//div[contains(@class,'text-collapse')]/p/text()",
     
 // Playlist =====================================================
-    "dtFromNode":   "//div[contains(@class,'col-md-wide-7')]/div[contains(@class,'myui-panel') and not(@id='desc')]/div/div/div/a",
+    "dtFromNode":   "//div[contains(@class,'col-md-wide-7')]/div[contains(@class,'myui-panel') and not(@id='desc')]/div/div/div",
     "dtFromName":   "/text()",
     "dtUrlNode":    "//ul[contains(@class,'myui-content__list')]",
     "dtUrlSubNode": "/li/a",
@@ -62,7 +66,7 @@
     "scVodId":   "/@href",
     "scVodIdR":  "/v/(\\w+).html",
     "scVodImg":  "/@data-original",
-    "scVodMark": "/span[contains(@class,'pic-text')]//text()",
+    "scVodMark": "/span[contains(@class,'pic-text')]/text()",
     
 // Filters =======================================================
     "filter": {
