@@ -8,12 +8,7 @@
     "cateName": "/text()",
     "cateId":   "/@href",
     "cateIdR":  "/channel/(\\w+).html",
-    "cateManual": {
-        "電視劇": "tvseries",
-        "電影":   "movies",
-        "綜藝":   "tv_show",
-        "動漫":   "anime"
-    },
+    "cateManual": {},
     
 // Home Summary ================================================
     "homeVodNode": "//ul[contains(@class,'myui-vodlist')]/li/div/a",
