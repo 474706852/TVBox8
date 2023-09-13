@@ -37,8 +37,8 @@
 // Category Details ================================================
     "dtUrl": "https://gimy.video/v/{vid}.html",
     "dtNode":     "//body",
-    "dtName":     "//div[contains(@class,'myui-vodlist__thumb')]/a/@title",
-    "dtImg":      "//div[contains(@class,'myui-vodlist__thumb')]/a/@data-original",
+    "dtName":     "//div[contains(@class,'myui-content__thumb')]/a/@title",
+    "dtImg":      "//div[contains(@class,'myui-content__thumb')]/a/@data-original",
     "dtImgR":     "\\S+(http\\S+)",
     "dtCate":     "//p[@class='data']/span[contains(text(),'分類')]/following-sibling::*/text()",
     "dtYear":     "//p[@class='data']/span[contains(text(),'年份')]/following-sibling::*/text()",
