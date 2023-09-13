@@ -10,6 +10,7 @@
 
 "sites":[
     {"key":"csp_xpath_97韩剧网","name":"97韩剧网(XPMF)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://github.com/qsguan/TVBox/raw/master/MaooXP/97HanJW.json"},
+    {"key":"csp_xpath_唐人街2","name":"唐人街2(XPMF)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://github.com/qsguan/TVBox/raw/master/MaooXP/TangRenJie2.json"},
     ## 播不出来
     {"key":"csp_biubiu_CokeMV","name":"CokeMV(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://freed.yuanhsing.cf/TVBox/MaooXB2/COKEMV.json"},
     {"key":"csp_xpath_CokeMV","name":"CokeMV(XPF)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://freed.yuanhsing.cf/TVBox/MaooXP/cokemv.json"},
