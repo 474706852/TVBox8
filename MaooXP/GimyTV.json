@@ -50,7 +50,7 @@
     
 // Playlist =====================================================
     "dtFromNode":   "//div[contains(@class,'col-md-wide-7')]/div[contains(@class,'myui-panel') and not(@id='desc')]",
-    "dtFromName":   "/div/div/div/h3//text()",
+    "dtFromName":   "/div/div/div/a[contains(@class,'more')]/parent::*/h3//text()",
     "dtUrlNode":    "//ul[contains(@class,'myui-content__list')]",
     "dtUrlSubNode": "/li/a",
     "dtUrlId":      "/@href",
