@@ -51,24 +51,24 @@
     "dtDesc":     "//div[@class='content']/section/div[contains(@class, 'full_text')]/span/text()",
     
 // Playlist =====================================================
-    "dtFromNode":   "//div[contains(@class,'play_source_tab')]/a/b",
+    "dtFromNode":   "//div[contains(@class,'play_source_tab')]/a",
     "dtFromName":   "/text()",
     "dtFromNameR":  "",
     "dtUrlNode":    "//div[@class='playlist_full']",
     "dtUrlSubNode": "/ul/li/a",
     "dtUrlId":      "/@href",
-    "dtUrlIdR":     "/vod/play/id/(\\S+).html",
+    "dtUrlIdR":     "/index.php/vod/play/id/(\\S+).html",
     "dtUrlName":    "/text()",
     "dtUrlNameR":   "",
-    "playUrl": "https://www.tangrenjie.tv/vod/play/id/{playUrl}.html",
+    "playUrl": "https://www.olevod.com/index.php/vod/play/id/{playUrl}.html",
     "playUa": "",
     
 // Search Results ================================================
-    "searchUrl": "https://www.tangrenjie.tv/vod/search.html?wd={wd}",
+    "searchUrl": "https://www.olevod.com/index.php/vod/search.html?wd={wd}",
     "scVodNode": "//ul[contains(@class,'vodlist')]/li/div/a[contains(@class,'vodlist_thumb')]",
     "scVodName": "/@title",
     "scVodId": "/@href",
-    "scVodIdR": "/vod/detail/id/(\\w+).html",
+    "scVodIdR": "/index.php/vod/detail/id/(\\w+).html",
     "scVodImg": "/@data-original",
     "scVodMark": "\\S+(http\\S+)",
     
