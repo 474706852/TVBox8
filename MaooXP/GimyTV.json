@@ -51,7 +51,7 @@
 // Playlist =====================================================
     "dtFromNode":   "//div[contains(@class,'myui-panel_hd')]/div/h3",
     "dtFromName":   "/text()",
-    "dtUrlNode":    "//div[@class='myui-myui-panel_bd']",
+    "dtUrlNode":    "//div[@class='myui-panel_bd']",
     "dtUrlSubNode": "/ul/li/a",
     "dtUrlId":      "/@href",
     "dtUrlIdR":     "/p/(\\S+).html",
