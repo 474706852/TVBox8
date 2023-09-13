@@ -49,8 +49,8 @@
     "dtDesc":     "//div[contains(@class, 'text-collapse')]/p/text()",
     
 // Playlist =====================================================
-    "dtFromNode":   "//div[contains(@class,'col-md-wide-7')]/div[contains(@class,'myui-panel')]/div/div[contains(@class,'myui-panel_hd')]/div/h3",
-    "dtFromName":   "/text()",
+    "dtFromNode":   "//div[contains(@class,'col-md-wide-7')]/div[contains(@class,'myui-panel') and not(@id='desc')]",
+    "dtFromName":   "/div/div/div/h3//text()",
     "dtUrlNode":    "//ul[contains(@class,'myui-content__list')]",
     "dtUrlSubNode": "/li/a",
     "dtUrlId":      "/@href",
