@@ -24,7 +24,6 @@
     "homeVodId":   "/@href",
     "homeVodIdR":  "/(\\S+).html",
     "homeVodImg":  "concat('https:\/\/www.97han.cc',/@data-original)",
-    "homeVodImgR": "\\S+(http\\S+)",
     "homeVodMark": "/span[contains(@class,'sc_num')]/text()",
     
 // Category Summary ================================================
@@ -34,7 +33,6 @@
     "cateVodId":   "/@href",
     "cateVodIdR":  "/(\\S+).html",
     "cateVodImg":  "concat('https:\/\/www.97han.cc',/@data-original)",
-    "cateVodImgR": "\\S+(http\\S+)",
     "cateVodMark": "/span[contains(@class,'sc_num')]/text()",
     
 // Category Details ================================================
@@ -68,7 +66,6 @@
     "scVodId":   "/@href",
     "scVodIdR":  "/(\\S+).html",
     "scVodImg":  "concat('https:\/\/www.97han.cc',/@data-original)",
-    "scVodImgR": "\\S+(http\\S+)",
     "scVodMark": "/span[contains(@class,'sc_num')]/text()",
     
 // Filters =======================================================
