@@ -21,7 +21,7 @@
     },
     
 // Home Summary ================================================
-    "homeVodNode": "//ul[contains(@class,'vodlist')][1]/li/a",
+    "homeVodNode": "//ul[contains(@class,'vodlist')]/li/a",
     "homeVodName": "/@title",
     "homeVodId":   "/@href",
     "homeVodIdR":  "/vod/detail/id/(\\w+).html",
@@ -30,7 +30,7 @@
     
 // Category Summary ================================================
     "cateUrl": "https://www.tangrenjie.tv/vod/show/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html",
-    "cateVodNode": "//ul[contains(@class,'vodlist')][1]/li/a",
+    "cateVodNode": "//ul[contains(@class,'vodlist')]/li/a",
     "cateVodName": "/@title",
     "cateVodId":   "/@href",
     "cateVodIdR":  "/vod/detail/id/(\\w+).html",
@@ -63,7 +63,7 @@
     
 // Search Results ================================================
     "searchUrl": "https://www.tangrenjie.tv/vod/search.html?wd={wd}",
-    "scVodNode": "//ul[contains(@class,'vodlist')][1]/li/a",
+    "scVodNode": "//ul[contains(@class,'vodlist')]/li/div/a",
     "scVodName": "/@title",
     "scVodId":   "/@href",
     "scVodIdR":  "/vod/detail/id/(\\w+).html",
