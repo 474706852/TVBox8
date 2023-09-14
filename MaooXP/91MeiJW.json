@@ -23,7 +23,7 @@
     "homeVodName": "/@title",
     "homeVodId":   "/@href",
     "homeVodIdR":  "/(\\S+).html",
-    "homeVodImg":  "concat('https:\/\/www.97han.cc',/@data-original)",
+    "homeVodImg":  "/@data-original",
     "homeVodMark": "/span[contains(@class,'sc_num')]/text()",
     
 // Category Summary ================================================
@@ -32,7 +32,7 @@
     "cateVodName": "/@title",
     "cateVodId":   "/@href",
     "cateVodIdR":  "/(\\S+).html",
-    "cateVodImg":  "concat('https:\/\/www.97han.cc',/@data-original)",
+    "cateVodImg":  "/@data-original",
     "cateVodMark": "/span[contains(@class,'sc_num')]/text()",
     
 // Category Details ================================================
@@ -65,7 +65,7 @@
     "scVodName": "/@title",
     "scVodId":   "/@href",
     "scVodIdR":  "/(\\S+).html",
-    "scVodImg":  "concat('https:\/\/www.97han.cc',/@data-original)",
+    "scVodImg":  "/@data-original",
     "scVodMark": "/span[contains(@class,'sc_num')]/text()",
     
 // Filters =======================================================
