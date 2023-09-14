@@ -9,6 +9,20 @@
 "lives":[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9naXRodWIuY29tL3FzZ3Vhbi9UVkJveC9yYXcvbWFzdGVyL1RWTGl2ZS9saXZlLnR4dA=="]}]}],
 
 "sites":[
+        {
+            "key": "唐人街影院",
+            "name": "🛫唐人街┃海外",
+            "type": 3,
+            "api": "https://drpy.cainisi.cf/libs/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "https://drpy.cainisi.cf/js/唐人街影视[飞].js"
+        },
+
+
+
     {"key":"csp_xpath_91美剧网","name":"91美剧网(XPMF)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://github.com/qsguan/TVBox/raw/master/MaooXP/MeiJuW.json"},
     ## 播不出来
     {"key":"csp_biubiu_CokeMV","name":"CokeMV(XB)","type":3,"api":"csp_XBiubiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://freed.yuanhsing.cf/TVBox/MaooXB2/COKEMV.json"},
