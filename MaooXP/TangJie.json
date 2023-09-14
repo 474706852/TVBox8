@@ -49,7 +49,7 @@
     "dtDirector": "concat(//li[@class='data']/span[contains(text(),'导演')]/following-sibling::a[position()<6]/text())",
     "dtActor":    "concat(//li[@class='data']/span[contains(text(),'主演')]/following-sibling::a[position()<6]/text())",
     "dtDesc":     "//div[@class='content']/section", #/section/font/p中可能没有/p节点，用/section下所有文本作为剧情介绍
-    "dtDescR":    "\[剧情介绍\](\\S+)",
+    "dtDescR":    "[剧情介绍]{0,4}(\\S+)",
     
 // Playlist =====================================================
     "dtFromNode":   "//div[contains(@class,'play_source_tab')]/a/b",
