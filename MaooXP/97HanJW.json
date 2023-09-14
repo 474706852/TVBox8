@@ -23,8 +23,9 @@
     "homeVodName": "/@title",
     "homeVodId":   "/@href",
     "homeVodIdR":  "/(\\S+).html",
-    "homeVodImg":  "/@data-original",
-    "homeVodMark": "/span[contains(@class,'sc_title')]/text()",
+    "homeVodImg":  "concat('https:\/\/www.97han.cc',/@data-original)",
+    "homeVodImgR": "\\S+(http\\S+)",
+    "homeVodMark": "/span[contains(@class,'sc_num')]/text()",
     
 // Category Summary ================================================
     "cateUrl": "https://www.97han.cc/list-select-id-{cateId}-type-{type}-area-{area}-letter--year-{year}-star--state--language--order-{by}-p-{catePg}.html",
@@ -32,15 +33,16 @@
     "cateVodName": "/@title",
     "cateVodId":   "/@href",
     "cateVodIdR":  "/(\\S+).html",
-    "cateVodImg":  "/@data-original",
-    "cateVodMark": "/span[contains(@class,'sc_title')]/text()",
+    "cateVodImg":  "concat('https:\/\/www.97han.cc',/@data-original)",
+    "cateVodImgR": "\\S+(http\\S+)",
+    "cateVodMark": "/span[contains(@class,'sc_num')]/text()",
     
 // Category Details ================================================
     "dtUrl": "https://www.97han.cc/{vid}.html",
     "dtNode":     "//body",
     "dtName":     "//div[contains(@class,'stui-content__thumb')]/a/@title",
     "dtImg":      "//div[contains(@class,'stui-content__thumb')]/a/@data-original",
-    "dtCate":     "concat(//p[@class='data']/span[contains(text(),'类型')]/following-sibling::a/text())",
+    "dtCate":     "//p[@class='data']/span[contains(text(),'类型')]/following-sibling::*/text()",
     "dtYear":     "//p[@class='data']/span[contains(text(),'年份')]/following-sibling::*/text()",
     "dtArea":     "//p[@class='data']/span[contains(text(),'地区')]/following-sibling::*/text()",
     "dtMark":     "//p[@class='data']/span[contains(text(),'状态')]/following-sibling::*/text()",
@@ -65,8 +67,9 @@
     "scVodName": "/@title",
     "scVodId":   "/@href",
     "scVodIdR":  "/(\\S+).html",
-    "scVodImg":  "/@data-original",
-    "scVodMark": "/span[contains(@class,'sc_title')]/text()",
+    "scVodImg":  "concat('https:\/\/www.97han.cc',/@data-original)",
+    "scVodImgR": "\\S+(http\\S+)",
+    "scVodMark": "/span[contains(@class,'sc_num')]/text()",
     
 // Filters =======================================================
     "filter": {
