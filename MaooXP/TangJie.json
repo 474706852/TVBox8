@@ -7,7 +7,7 @@
     "cateNode": "//ul[contains(@class,'top_nav')]/li/a[contains(@href,'type') and not(contains(@href,'5'))]",
     "cateName": "/b/text()",
     "cateId":   "/@href",
-    "cateIdR":  "/vod/type/id/(\\w+).html",
+    "cateIdR":  "/vod/type/id/(\\S+).html",
     "cateManual": {
         "国产剧": "13",
         "港台剧": "14",
@@ -24,7 +24,7 @@
     "homeVodNode": "//li[contains(@class,'vodlist_item')]/a",
     "homeVodName": "/@title",
     "homeVodId":   "/@href",
-    "homeVodIdR":  "/vod/detail/id/(\\w+).html",
+    "homeVodIdR":  "/vod/detail/id/(\\S+).html",
     "homeVodImg":  "/@data-original",
     "homeVodMark": "/span[contains(@class,'pic_text')]/b/text()",
     
@@ -33,7 +33,7 @@
     "cateVodNode": "//li[contains(@class,'vodlist_item')]/a",
     "cateVodName": "/@title",
     "cateVodId":   "/@href",
-    "cateVodIdR":  "/vod/detail/id/(\\w+).html",
+    "cateVodIdR":  "/vod/detail/id/(\\S+).html",
     "cateVodImg":  "/@data-original",
     "cateVodMark": "/span[contains(@class,'pic_text')]/b/text()",
     
