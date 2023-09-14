@@ -19,7 +19,7 @@
     },
     
 // Home Summary ================================================
-    "homeVodNode": "//ul[contains(@class,'stui-vodlist')]/li/div/a",
+    "homeVodNode": "//ul[contains(@class,'stui-vodlist')]/li/a",
     "homeVodName": "/@title",
     "homeVodId":   "/@href",
     "homeVodIdR":  "/(\\S+).html",

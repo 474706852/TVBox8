@@ -16,23 +16,23 @@
     },
     
 // Home Summary ================================================
-    "homeVodNode": "//ul[contains(@class,'vodlist')][1]/li/a",
+    "homeVodNode": "//li[contains(@class,'vodlist_item')]/a",
     "homeVodName": "/@title",
     "homeVodId":   "/@href",
     "homeVodIdR":  "/index.php/vod/detail/id/(\\w+).html",
     "homeVodImg":  "/@data-original",
     "homeVodImgR": "\\S+(http\\S+)",
-    "homeVodMark": "/span[contains(@class,'pic_text')]//text()",
+    "homeVodMark": "/span[contains(@class,'pic_text')]/text()",
     
 // Category Summary ================================================
     "cateUrl": "https://www.olevod.com/index.php/vod/show/area/{area}/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html",
-    "cateVodNode": "//ul[contains(@class,'vodlist')][1]/li/a",
+    "cateVodNode": "//li[contains(@class,'vodlist_item')]/a",
     "cateVodName": "/@title",
     "cateVodId":   "/@href",
     "cateVodIdR":  "/index.php/vod/detail/id/(\\w+).html",
     "cateVodImg":  "/@data-original",
     "cateVodImgR": "\\S+(http\\S+)",
-    "cateVodMark": "/span[contains(@class,'pic_text')]//text()",
+    "cateVodMark": "/span[contains(@class,'pic_text')]/text()",
     
 // Category Details ================================================
     "dtUrl": "https://www.olevod.com/index.php/vod/detail/id/{vid}.html",
@@ -61,12 +61,12 @@
     
 // Search Results ================================================
     "searchUrl": "https://www.olevod.com/index.php/vod/search.html?wd={wd}",
-    "scVodNode": "//ul[contains(@class,'vodlist')][1]/li/div/a",
+    "scVodNode": "//li[contains(@class,'searchlist_item')]/div/a",
     "scVodName": "/@title",
     "scVodId":   "/@href",
     "scVodIdR":  "/index.php/vod/detail/id/(\\w+).html",
     "scVodImg":  "/@data-original",
-    "scVodMark": "/span[contains(@class,'pic_text')]//text()",
+    "scVodMark": "/span[contains(@class,'pic_text')]/text()",
     
 // Filters =======================================================
     "filter": {
